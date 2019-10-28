@@ -1,0 +1,14 @@
+digraph {
+    node [shape=box, fontname="Inconsolata, Consolas", fontsize=10, penwidth=0.5]
+
+    Animal, Mammal, Reptile, Dog, Cat, Snake
+
+    /* inheritance */
+    {
+        edge [arrowtail=onormal, dir=back]
+
+        Animal -> { Mammal, Reptile }
+        Mammal -> { Dog, Cat}
+        Reptile -> Snake
+    }
+}

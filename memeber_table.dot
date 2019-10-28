@@ -1,0 +1,19 @@
+digraph {
+    node [shape=plaintext, fontname="Inconsolata, Consolas", fontsize=10, penwidth=0.5]
+
+    Account [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td>Account</td></tr>
+<tr><td align="left" balign="left">
+# balance : int<br/>
+- <u>owner : string</u><br/>
+</td></tr>
+<tr><td align="left" balign="left">
++ Deposite(amount : int)<br/>
++ Withdraw(amount : int)<br/>
++ GetBalance() : int<br/>
+</td></tr>
+</table>
+>]
+
+}

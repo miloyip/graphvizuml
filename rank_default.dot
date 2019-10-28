@@ -1,0 +1,17 @@
+digraph {
+    node [shape=box, fontname="Inconsolata, Consolas", fontsize=10, penwidth=0.5]
+
+    Canvas, Shape, Rectangle, Circle
+
+    /* inheritance */
+    {
+        edge [arrowtail=onormal, dir=back]
+        Shape -> { Rectangle, Circle }
+    }
+
+    /* composition */
+    {
+        edge [dir=back, arrowtail=diamond, headlabel="* "]        
+        Canvas -> Shape
+    }
+}

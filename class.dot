@@ -1,0 +1,5 @@
+digraph {
+    node [shape=box, fontname="Inconsolata, Consolas", fontsize=10, penwidth=0.5]
+
+    Foo, Bar
+}

@@ -1,0 +1,12 @@
+digraph {
+    node [shape=box, fontname="Inconsolata, Consolas", fontsize=10, penwidth=0.5]
+    edge [fontname="Inconsolata, Consolas", fontsize=10, penwidth=0.5]
+
+    Person, Magazine
+
+    /* Association */
+    {
+        edge [dir=none]
+        Person -> Magazine [label=" subscribe"]
+    }
+}
