@@ -4,6 +4,8 @@
 
 # 简介
 
+> 本文的 PDF 版本可在 [在此下载](https://miloyip.github.io/graphvizuml/graphvizuml.pdf)。
+
 [Graphviz](https://www.graphviz.org/) 是 AT&T 实验室开发的一个开源软件，它以一种文本语言去描述图（graph），然后自动排布节点和边去生成图片。它已有近 30 年历史。
 
 UML（unified modeling language，统一建模语言）是一种常用的面向对象设计的方法。其中最常用的是类图（class diagram），用于表示类的构成以及类之间的关系。
