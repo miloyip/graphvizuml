@@ -4,7 +4,7 @@
 
 # 简介
 
-> 本文的 PDF 版本可在 [在此下载](https://miloyip.github.io/graphvizuml/graphvizuml.pdf)。
+> 本文为开放文档，可在 [GitHub](https://github.com/miloyip/graphvizuml) 提交 issue／PR。本文的 PDF 版本可在 [在此下载](https://miloyip.github.io/graphvizuml/graphvizuml.pdf)。
 
 [Graphviz](https://www.graphviz.org/) 是 AT&T 实验室开发的一个开源软件，它以一种文本语言去描述图（graph），然后自动排布节点和边去生成图片。它已有近 30 年历史。
 
